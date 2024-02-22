@@ -1,8 +1,8 @@
 {
   "sites": [
     {
-      "key": "点播源",
-      "name": "点播源",
+      "key": "非凡",
+      "name": "非凡",
       "type": 0,
       "api": "http://cj.ffzyapi.com/api.php/provide/vod/from/ffm3u8/at/xml/",
       "playUrl": "https://ffzyplayer.com/?url=",
@@ -17,6 +17,26 @@
         "泰剧",
         "综艺"
       ]
+    },
+    {
+      "key": "快看",
+      "name": "快看",
+      "type": 0,
+      "api": "https://kuaikan-api.com/api.php/provide/vod/from/kuaikan/at/xml ",
+      "playUrl": "https://kkzyplayer.com/player/?url=",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "乐视",
+      "name": "乐视",
+      "type": 0,
+      "api": "https://leshizyapi.com/api.php/provide/vod/at/xml  ",
+      "playUrl": "https://leshivideoplayurl.com/?url=  ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
     }
   ],
   "lives": [
